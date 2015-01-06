@@ -1,0 +1,60 @@
+.Footer {
+	padding-bottom: 25px;
+}
+
+.Footer a {
+	color: #A5A5A5;
+	&:hover{
+	color: #ffffff;
+	}
+}
+
+.Footer h4 {
+	font-weight: 300;
+}
+
+// RESPONSIVE FOOTER
+.Footer-inner .widget {
+	@include span-columns(4);
+	@media screen and(max-width: 980px){
+		@include span-columns(12);
+	}
+}
+
+.Footer-inner {
+}
+
+//style the widgets
+.Footer-inner .widget {
+
+}
+
+
+.Socket{
+	color: #000000;
+	text-align: center;
+	background: #ffffff;
+}
+
+.Socket a{
+	color: #025492;
+}
+
+.socket-orange{
+	color: #f7942e;
+}
+
+.full-bg-footer{
+	color: #ffffff;
+	background: #2D2D2D;
+	margin-top:50px;
+}
+
+.menu-0{
+	width: 100%;
+	color: #000000;
+}
+
+.twitter-icon-footer {
+	margin-left: 15px;
+}

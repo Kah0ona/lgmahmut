@@ -1,0 +1,98 @@
+// *************************************
+//
+// Header
+// -> Main site header
+//
+// *************************************
+
+.Header {
+  background-image: url("../img/img-header-bg.png");
+  background-size: cover;
+}
+
+//Navigatie
+.full-bg-nav{
+  background:#ffffff;
+  padding-top:5px;
+  padding-bottom:20px;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  padding-top: 5px;
+  border-bottom:2px solid #f1f1f1;
+  -webkit-box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.17);
+  -moz-box-shadow:    0px 2px 8px 0px rgba(50, 50, 50, 0.17);
+  box-shadow:         0px 2px 8px 0px rgba(50, 50, 50, 0.17);
+}
+
+.vertical-space{
+  height:74px;
+}
+
+.logo-header{
+  width: 150px;
+  margin-top: 12px;
+}
+
+// -------------------------------------
+// Module specific variables
+// -------------------------------------
+
+// -variable
+
+// -------------------------------------
+// Modifiers
+// -------------------------------------
+
+// .Module--modifierName
+
+// -------------------------------------
+// States
+// -------------------------------------
+
+// .is-module-state
+
+// -------------------------------------
+// Context
+// -------------------------------------
+
+// .has-module
+
+// -------------------------------------
+// Submodules
+// -------------------------------------
+
+// ----- Contact bar ----- //
+
+.Header-contact {
+  @extend .u-gridRow;
+  padding-bottom : $l-whiteSpace;
+  padding-top    : $l-whiteSpace;
+  background: rgba($c-black,0.5);
+}
+
+// ----- Contact bar ----- //
+
+.Header-logo {
+  @extend .u-gridRow;
+  padding-bottom : $l-whiteSpace;
+  padding-top    : $l-whiteSpace;
+  background: rgba($c-black,0.25);
+}
+
+// ----- Nav bar ----- //
+
+.Header-nav {
+  @extend .u-gridRow;
+  padding-bottom : $l-whiteSpace;
+  padding-top    : $l-whiteSpace;
+  background: $c-blue;
+}
+
+// ----- Carousel ----- //
+
+.Header-carousel {
+  @extend .u-gridRow;
+  padding-bottom : ($l-whiteSpace * 4);
+  padding-top    : ($l-whiteSpace * 4);
+}
