@@ -208,6 +208,38 @@
 	border-top-right-radius: 3px;
 }
 
+.belmij-area{
+	background: rgb(239, 239, 239);
+	display: inline-block;
+	width: 100%;
+	padding-left: 14px;
+	padding-right: 14px;
+}
+
+.belmij-icon{
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.belmij-head-titel{
+	background: #f48022;
+	padding: 10px 10px;
+	color: #ffffff;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+.belmij-head-titel{
+	margin-top: 40px;
+}
+
+#input_3_1, #input_3_2, #input_3_3, #input_3_4{
+	width: 100%;
+	border: 1px solid #d5d5d5;
+	border-radius: 3px;
+	background: #ffffff;
+}
+
 //CSS voor blog gedeelte
 
 
@@ -220,15 +252,16 @@
  }
 
  .show-all{
- 	width: 100%;
+	width: 35%;
 	background-color: #f48022;
 	color: #ffffff;
 	border: 0px;
 	border-radius: 5px;
 	line-height: 10px;
 	padding: 10px;
-	height: 50px;
+	height: 32px;
 	outline: none;
+	margin-top: 67px;
  }
 
 .blog-header{
@@ -530,6 +563,13 @@
 	font-size: 14px;
 }
 
+.website-area a{
+	color: #f48022;
+}
+
+#website{
+	padding-bottom: 25px;
+}
 
 //Responsive gedeelte
 
@@ -631,7 +671,7 @@
 		display: none;
 	}
 
-	.twitter-head-titel{
+	.belmij-head-titel{
 		margin-top: 20px;
 	}
 

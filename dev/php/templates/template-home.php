@@ -59,21 +59,21 @@ Template Name: Homepage
                 <img class="dienst-icon" src="<?php echo get_stylesheet_directory_uri();?>/img/icon-website.png">
                 <h4>Website</h4>
 				<p>LokaalGevonden ontwerpt een unieke website met de nieuwe technieken dat voldoet aan uw wensen.</p>
-				<a class="button-meer-info-diensten" href="/onze-diensten">Meer informatie</a>			
+				<a class="button-meer-info-diensten" href="/onze-diensten#website">Meer informatie</a>			
 			</div>
 
             <div class="u-gridCol4 box-diensten">
                 <img class="dienst-icon" src="<?php echo get_stylesheet_directory_uri();?>/img/icon-webshop.png">
                 <h4>Webshop</h4>			
                 <p>Wij ontwerpen graag voor u een webshop waarbij structuur, looppad en het aanbod perfect op elkaar aansluiten.</p>
-				<a class="button-meer-info-diensten" href="/onze-diensten">Meer informatie</a>			
+				<a class="button-meer-info-diensten" href="/onze-diensten#webshop">Meer informatie</a>			
 			</div>
 
             <div class="u-gridCol4 box-diensten">
                 <img class="dienst-icon" src="<?php echo get_stylesheet_directory_uri();?>/img/icon-seo.png">
                 <h4>SEO</h4>			
                 <p>Om bezoekers te kunnen genereren via zoekmachines dient uw website met de juiste zoekwoorden op pagina 1 te staan.</p>
-				<a class="button-meer-info-diensten" href="/onze-diensten">Meer informatie</a>			
+				<a class="button-meer-info-diensten" href="/onze-diensten#seo">Meer informatie</a>			
 			</div>
 
 		</div>
@@ -129,12 +129,20 @@ Template Name: Homepage
 
             </div>
 
-             <div class="u-gridCol4">
+            <!-- <div class="u-gridCol4">
                 <div class="twitter-head-titel"><img class="twitter-icon" src="<?php echo get_stylesheet_directory_uri();?>/img/twitter-feed.png">Twitter</div>  
                     
                 <a class="twitter-timeline" height="268" data-chrome="nofooter" href="https://twitter.com/LokaalGevonden" data-widget-id="540889659833073664">Tweets door @LokaalGevonden</a>
                 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                                     
+            </div>  -->
+
+            <div class="u-gridCol4">
+                <div class="belmij-head-titel"><img class="belmij-icon" src="<?php echo get_stylesheet_directory_uri();?>/img/telefoon.png">Bel mij terug</div>  
+                
+                <div class="belmij-area">
+                    <?php echo do_shortcode('[gravityform id="3" title="false"]'); ?>
+                </div>
             </div>                                  
         </div>
 	</div>

@@ -40,7 +40,7 @@ Template Name: Over ons
 
 	<div class="full-bg-diensten">
 		<div class="u-gridContainer">
-	    	<div class="u-gridRow website-area">                 
+	    	<div class="u-gridRow website-area" id="website">                 
 	            <div class="u-gridCol6">
 	                 <img class="dienst-img" src="<?php echo get_stylesheet_directory_uri();?>/img/dienst-website.png">
 	            </div>
@@ -53,13 +53,15 @@ Template Name: Over ons
 						Bij LokaalGevonden zijn we sterk overtuigd dat responsive webdesign de oplossing biedt om alle gebruikers optimaal te bedienen.
 						Alle websites en webshops worden daarom ontwikkeld in responsive design en ontwerpen wij voor u een mobiele app: zo is uw website geoptimaliseerd voor elke gebruiker. 
 					</p>
+	           		
+	           		<a href="/webdevelopment-webdesign">Lees meer</a>           	
 	            </div>            
 	    	</div>
 		</div>
 	</div>
 		
 	<div class="u-gridContainer">
-    	<div class="u-gridRow website-area">                 
+    	<div class="u-gridRow website-area" id="webshop">                 
             <div class="u-gridCol6">
            	     <h2>Webshop</h2>
 				
@@ -68,7 +70,9 @@ Template Name: Over ons
 					looppad en het aanbod perfect op elkaar aansluiten. Bovendien zijn onze webshops  
 					responsive en zoekmachinevriendelijk opgebouwd: dit biedt u een goede positie in Google, 
 					hogere conversies en een voorsprong op uw concurrenten. 
-				</p>            	
+				</p> 
+
+				<a href="/webshop">Lees meer</a>           	
             </div>
             <div class="u-gridCol6">
 	                <img class="dienst-img-rechts" src="<?php echo get_stylesheet_directory_uri();?>/img/dienst-webshop.png">
@@ -78,7 +82,7 @@ Template Name: Over ons
 
 	<div class="full-bg-diensten">
 		<div class="u-gridContainer">
-    		<div class="u-gridRow website-area">                 
+    		<div class="u-gridRow website-area" id="seo">                 
 	            <div class="u-gridCol6">
 	                 <img class="dienst-img" src="<?php echo get_stylesheet_directory_uri();?>/img/dienst-seo.png">
 	            </div>
@@ -91,6 +95,8 @@ Template Name: Over ons
 						 zorgen wij ervoor dat uw vindbaarheid zal vergroten. Dit levert u de juiste en meer 
 						 relevante bezoekers op, wat tot conversie-verhoging zal leiden.  
 					</p>
+
+					<a href="/zoekmachine-optimalisatie">Lees meer</a>           	
 	            </div>            
 	    	</div>
 	    </div>
@@ -106,7 +112,10 @@ Template Name: Over ons
 					Onze grafische vormgevers ontwerpen graag voor u een logo dat voldoet aan uw wensen en past bij uw bedrijf.
 					 In samenwerking met u kunnen onze grafische vormgevers ook uw huisstijl en alle uitingen 
 					 (flyers, briefpapier, brochures) verzorgen. 
-				</p>            	
+				</p> 
+
+				<a href="/logo">Lees meer</a>           	
+           	
             </div>
             <div class="u-gridCol6">
 	                <img class="dienst-img-rechts" src="<?php echo get_stylesheet_directory_uri();?>/img/dienst-logo.png">
