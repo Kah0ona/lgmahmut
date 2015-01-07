@@ -23,8 +23,7 @@ Template Name: Over ons
 	<div class="video-area">
 	    <video id="video" autoplay loop>
 			<source src="<?php echo get_stylesheet_directory_uri();?>/img/over_ons.ogv" type="video/ogg">
-				<video src="<?php echo get_stylesheet_directory_uri();?>/img/over_ons.ogv" controls>
-				</video>
+			<source src="<?php echo get_stylesheet_directory_uri();?>/img/over_ons.mp4" type="video/mp4">
 		</video>
 		<div class="u-gridContainer">
 	    	<div class="u-gridRow">  
