@@ -10,12 +10,23 @@
   background-size: cover;
 }
 
+@media all and (min-width: 1040px) {
+  .full-bg-nav{
+    position: fixed;
+  }
+}
+
+@media all and (max-width: 1040px) {
+  .vertical-space{
+    display: none;
+  }
+}
+
 //Navigatie
 .full-bg-nav{
   background:#ffffff;
   padding-top:5px;
   padding-bottom:20px;
-  position: fixed;
   z-index: 999;
   width: 100%;
   padding-top: 5px;

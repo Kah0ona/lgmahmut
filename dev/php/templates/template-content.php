@@ -26,7 +26,7 @@ Template Name: Content
             </div>
 
              <div class="u-gridCol4">
-                <div class="belmij-head-titel"><img class="belmij-icon" src="<?php echo get_stylesheet_directory_uri();?>/img/telefoon.png">Bel mij terug</div>  
+                <div class="belmij-head-titel"><img class="belmij-icon" src="<?php echo get_stylesheet_directory_uri();?>/img/telefoon.png">Neem nu contact op</div>  
                 
                 <div class="belmij-area">
                     <?php echo do_shortcode('[gravityform id="3" title="false"]'); ?>
