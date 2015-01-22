@@ -29,7 +29,7 @@ Template Name: Ons werk
 
 	<div class="u-gridContainer">
 
-		 <div class="u-gridRow row-case-blok">    
+		 <div class="u-gridRow row-case-blok case-blok-top">    
 		    
 		    <div class="u-gridCol4 case-blok">
 	                <a href="/dierenkliniek-winkelhof"><img class="dienst-thumb" src="<?php echo get_stylesheet_directory_uri();?>/img/showcase-winkelhof.png"></a>		    	
