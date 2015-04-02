@@ -65,8 +65,23 @@
     -moz-border-radius: 5px;
     border-radius: 5px;
     }
-      &:last-of-type a:hover{
-      background-color: #f19449;
+    &:last-of-type a:hover{
+      background-color: #f48022;
+    }
+
+
+     &:nth-of-type(6) a{
+      background-color: #035493;
+      color: #ffffff;
+      padding: 8px;
+      line-height: 10px;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+    }
+    &:nth-of-type(6) a:hover{
+      background-color: #035493;
     }
 }
 

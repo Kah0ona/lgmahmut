@@ -9,6 +9,15 @@
 	                	<a class="btnForm" href="#">Handleiding webshop</a></br>
 	                	<a href="/onze-diensten">Onze diensten</a>
 	                </div>
+	                <?php if(strpos($_SERVER['HTTP_HOST'], '.be') !== false) {  ?>
+	                <div class="u-gridCol3">
+	                	<h4>Contact</h4>
+	                	<p>
+	                 		Email: info@lokaalgevonden.be </br> 
+							Tel: 078484170
+	                	</p>
+	                </div>
+	                <?php } else { ?>
 	                <div class="u-gridCol3">
 	                	<h4>Contact</h4>
 	                	<p>
@@ -18,6 +27,7 @@
 							Tel: 0165781450
 	                	</p>
 	                </div>
+	                <?php } ?>
 	                <div class="u-gridCol3">
 	                	<h4>Social media</h4>
 	                	<a href="https://nl-nl.facebook.com/Lokaalgevonden" target="_blank"><img src="<?php echo get_stylesheet_directory_uri();?>/img/facebook.png"> </a>

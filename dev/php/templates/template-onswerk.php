@@ -5,6 +5,9 @@ Template Name: Ons werk
 ?>
 
 <?php get_header(); ?>
+
+
+
 <div class="vertical-space"></div>
 	<div class="ons-werk-header"> 
 		<div class="u-gridContainer">
@@ -24,12 +27,32 @@ Template Name: Ons werk
 		    	</div>            
 
 		</div>
-	</div>	
-</div>
+	</div>
+</div>  
 
 	<div class="u-gridContainer">
+	     <?php if(strpos($_SERVER['HTTP_HOST'], '.be') !== false) {  ?>
+	 		<div class="u-gridRow row-case-blok case-blok-top">   
+			    
+			    <div class="u-gridCol4 case-blok">
+		                <a href="/ikverkoopmijnauto"><img class="dienst-thumb" src="<?php echo get_stylesheet_directory_uri();?>/img/logoikverkoop.png"></a>		    	
+			    		<p class="case-titel">IKVERKOOPMIJNAUTO</p>
+			    </div>
+			           
+			    <div class="u-gridCol4 case-blok">
+		                <a href="/euromilieu"><img class="dienst-thumb" src="<?php echo get_stylesheet_directory_uri();?>/img/logoeuro.png"></a>		    	
+			    		<p class="case-titel">EURO MILIEU</p>
+			    </div>
 
-		 <div class="u-gridRow row-case-blok case-blok-top">    
+
+			    <div class="u-gridCol4 case-blok">
+		                <a href="/hapjes-co"><img class="dienst-thumb" src="<?php echo get_stylesheet_directory_uri();?>/img/logohapjes.png"></a>	    	
+			    		<p class="case-titel">HAPJES EN CO</p>
+			    </div>		    	            
+			
+			</div> 
+
+			 <div class="u-gridRow row-case-blok case-blok-top">   
 		    
 		    <div class="u-gridCol4 case-blok">
 	                <a href="/dierenkliniek-winkelhof"><img class="dienst-thumb" src="<?php echo get_stylesheet_directory_uri();?>/img/showcase-winkelhof.png"></a>		    	
@@ -50,7 +73,70 @@ Template Name: Ons werk
 		</div> 
 
 
-		<div class="u-gridRow row-case-blok">    
+
+	     <?php } else { ?>
+		 <div class="u-gridRow row-case-blok case-blok-top">   
+		    
+		    <div class="u-gridCol4 case-blok">
+	                <a href="/dierenkliniek-winkelhof"><img class="dienst-thumb" src="<?php echo get_stylesheet_directory_uri();?>/img/showcase-winkelhof.png"></a>		    	
+		    		<p class="case-titel">DIERENKLINIEK WINKELHOF</p>
+		    </div>
+		           
+		    <div class="u-gridCol4 case-blok">
+	                <a href="/cartoon-factory"><img class="dienst-thumb" src="<?php echo get_stylesheet_directory_uri();?>/img/showcase-cartoonfactory.png"></a>		    	
+		    		<p class="case-titel">CARTOON FACTORY</p>
+		    </div>
+
+
+		    <div class="u-gridCol4 case-blok">
+	                <a href="/cest-moi"><img class="dienst-thumb" src="<?php echo get_stylesheet_directory_uri();?>/img/showcase-cestmoi.png"></a>		    	
+		    		<p class="case-titel">C'EST MOI</p>
+		    </div>		    	            
+		
+		</div> 
+
+
+		<div class="u-gridRow row-case-blok">
+		    
+		    <div class="u-gridCol4 case-blok">
+	                <a href="/zeggers-leeman"><img class="dienst-thumb" src="<?php echo get_stylesheet_directory_uri();?>/img/akzl1.png"></a>		    	
+		    		<p class="case-titel">ZEEGERS & LEEMAN</p>
+		    </div>
+		           
+		    <div class="u-gridCol4 case-blok">
+	                <a href="/drechtaccount"><img class="dienst-thumb" src="<?php echo get_stylesheet_directory_uri();?>/img/drechtaccount1.png"></a>		    	
+		    		<p class="case-titel">DRECHTACCOUNT</p>
+		    </div>
+
+
+		    <div class="u-gridCol4 case-blok">
+	                <a href="/dv-r"><img class="dienst-thumb" src="<?php echo get_stylesheet_directory_uri();?>/img/dvr.png"></a>		    	
+		    		<p class="case-titel">DV + R</p>
+		    </div>
+		</div>
+
+
+		<div class="u-gridRow row-case-blok">
+		    
+		    <div class="u-gridCol4 case-blok"> 
+	                <a href="/warmteinstallatieservice"><img class="dienst-thumb" src="<?php echo get_stylesheet_directory_uri();?>/img/warmteinstallatieservice1.png"></a>		    	
+		    		<p class="case-titel">WARMTEINSTALLATIESERVICE</p>
+		    </div>
+		            
+		    <div class="u-gridCol4 case-blok">
+	                <a href="/ravooschilderwerken"><img class="dienst-thumb" src="<?php echo get_stylesheet_directory_uri();?>/img/ravoo1.png"></a>		    	
+		    		<p class="case-titel">RAVOO SCHILDERWERKEN</p>
+		    </div>
+
+
+		    <div class="u-gridCol4 case-blok">
+	                <a href="/cafe-postiljon"><img class="dienst-thumb" src="<?php echo get_stylesheet_directory_uri();?>/img/postiljon.png"></a>		    	
+		    		<p class="case-titel">CAFE POSTILJON</p>
+		    </div>
+		</div>
+
+
+		<div class="u-gridRow row-case-blok">     
 		    
 		    <div class="u-gridCol4 case-blok">
 	                <a href="/selamat-makan"><img class="dienst-thumb" src="<?php echo get_stylesheet_directory_uri();?>/img/showcase-selamat.png"></a>		    	
@@ -78,8 +164,8 @@ Template Name: Ons werk
 		    </div>
 		           
 		    <div class="u-gridCol4 case-blok">
-	                <a href="/mao-administratie"><img class="dienst-thumb" src="<?php echo get_stylesheet_directory_uri();?>/img/showcase-mao.png"></a>		    	
-		    		<p class="case-titel">MAO ADMINISTRATIE</p>
+		    		<a href="/dierenkliniek-lunetten"><img class="dienst-thumb" src="<?php echo get_stylesheet_directory_uri();?>/img/lunettelogo.png"></a>		    	
+		    		<p class="case-titel">DIERENKLINIEK LUNETTEN</p>
 		    </div>
 
 
@@ -89,7 +175,7 @@ Template Name: Ons werk
 		    </div>	    	            
 		
 		</div>  
-
+		<?php } ?>
 	</div>   
 
 	<!--<?php if (have_posts()) : while (have_posts()) : the_post(); ?>

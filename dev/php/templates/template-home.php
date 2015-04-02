@@ -95,7 +95,7 @@ Template Name: Homepage
         		<a href="http://kluskoorts.nl/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri();?>/img/kluskoorts.png"></a>        		
         	</div> 
         	<div class="u-gridCol2 blok-logo">
-        		<a href="http://maoadministratie.nl/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri();?>/img/mao.png"></a>        		
+        		<a href="http://omen-uitvaartzorg.nl/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri();?>/img/omen.png"></a>               
         	</div>         	        	       	
 		</div>
 
