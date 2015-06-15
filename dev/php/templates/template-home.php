@@ -126,7 +126,9 @@ Template Name: Homepage
                 </article>
 
                 <button class="show-all">Laat alle blog items zien</button>
-
+                <div>
+                    <a class="button-meer-info-diensten" href="http://lokaalgevonden.nl/klantervaringen/" style="padding:10px;">Bekijk Klant ervaringen</a>
+                </div>
             </div>
 
             <!-- <div class="u-gridCol4">
